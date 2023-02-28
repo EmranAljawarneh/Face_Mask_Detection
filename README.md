@@ -6,3 +6,5 @@ We used the first 1000 images from both folders with and without mask.
 We processed the data to be suitable for the model. In this repository, we applied the CNN deep learning model to predict if the person wearing mask or not.
 
 The dataset used in this project from kaggle https://www.kaggle.com/datasets/vijaykumar1799/face-mask-detection for training the model.
+
+In the evaluation phase, you can split both folders; with and without mask into train and test set and shuffling them. For example, 2000 for model buuilding and 500 for evaluation.
