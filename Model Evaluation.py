@@ -1,6 +1,6 @@
 # Evaluate the model using external dataset
-with_mask_test_path = glob.glob('/content/with_mask_test/*.jpg')
-without_mask_test_path = glob.glob('/content/without_mask_test/*.jpg')
+with_mask_test_path = glob.glob('/content/with_mask_test/*.png')
+without_mask_test_path = glob.glob('/content/without_mask_test/*.png')
 test_image_path = with_mask_test_path+without_mask_test_path
 
 test_images = []
